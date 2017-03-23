@@ -1,0 +1,715 @@
+ html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+}
+.arrows{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	z-index: 99;
+}
+.arrows img{
+	width: 7%;
+	margin-left: 46.5%;
+	animation: fadeInUp 1s infinite;
+}
+.p1{
+	background: url(../img/1/1bg.jpg) no-repeat center;
+	background-size: cover;
+	/*animation: fadeIn 1.5s;*/
+}
+.p1 img{
+	position: absolute;
+}
+.p1 .qd{
+	width: 30%;
+	left: 35%;
+	/*top: 31px;*/
+	top: 4vh;
+	opacity: 0;
+}
+.p1 .kuang{
+	width: 84%;
+	left: 8%;
+	/*top: 42px;*/
+	top: 6vh;
+	opacity: 0;
+}
+.p1 .wm{
+	width: 68%;
+	left: 16%;
+	/*top: 75px;*/
+	top: 11vh;
+	opacity: 0;
+}
+.p1 .buyuan{
+	width: 70%;
+	left: 15%;
+	/*top: 178px;*/
+	top: 27.5vh;
+	opacity: 0;
+}
+.p1 .people{
+	width: 100%;
+	left: 0%;
+	bottom: 0;
+}
+.p2,.p3,.p4{
+	background: url(../img/2/bgn.jpg) no-repeat center;
+	background-size: cover;
+}
+.p2 img,.p3 img,.p4 img{
+	position: absolute;
+}
+.p2 .kuang1,.p3 .kuang1,.p4 .kuang1{
+	width: 82%;
+	left: 9%;
+	top: 5.5vh;
+	animation: bling 0.8s 1s infinite alternate ease;
+}
+.p2 .kuang2,.p3 .kuang2,.p4 .kuang2{
+	width: 82%;
+	left: 10%;
+	top: 4.8vh;
+	animation: bling 0.8s 1s infinite alternate ease;
+}
+.p2 .year2016,.p3 .year2016,.p4 .year2016{
+	width: 68%;
+	left: 16%;
+	top: 13.5vh;
+}
+.p2 .baixian1,.p3 .baixian1,.p4 .baixian1{
+	width: 70%;
+	left: 15%;
+	top: 19.2vh;
+	/*animation: num 1s infinite alternate;*/
+}
+.p2 .yujing,.p3 .yujing,.p4 .yujing{
+	width: 50%;
+	left: 25%;
+	top: 23.5vh;
+}
+.p2 .baixian2,.p3 .baixian2,.p4 .baixian2{
+	width: 70%;
+	left: 15%;
+	top: 29.2vh;
+	/*animation: num 1s infinite alternate;*/
+}
+.p2 .person,.p3 .person,.p4 .person{
+	width: 74%;
+	left: 14%;
+	top: 44vh;
+	opacity: 0;
+	/*animation: num 1s 5s infinite alternate;*/
+}
+.p2 .baixian3,.p3 .baixian3,.p4 .baixian3{
+	width: 70%;
+	left: 15%;
+	top: 39.2vh;
+	/*animation: num 1s infinite alternate;*/
+}
+.p2 .weihai,.p3 .weihai,.p4 .weihai{
+	width: 70%;
+	left: 15%;
+	top: 35.5vh;
+	opacity: 0;
+}
+.p3 .weihai{
+	top: 36vh;
+}
+.p4 .weihai{
+	top: 36.5vh;
+}
+.p2 .kqwr,.p3 .kqwr,.p4 .kqwr{
+	width: 50%;
+	left: 25%;
+	top: 88vh;
+	opacity: 0;
+	animation: bling 1s 4s infinite alternate;
+}
+/*lkiu*/
+.bor{
+	width: 100%;
+	height: 100%;
+}
+.p5{
+	width: 100%;
+	height: 100%;
+}
+.bg{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.p5 img{
+	position: absolute;
+}
+.p5 .part2 .lightOut{
+	position: absolute;
+	width: 100%;
+	height: 70vh;
+	left: 0%;
+	top: 5vh;	
+}
+.p5 .part2 .light1{
+	position: absolute;
+	width: 23%;
+	left: 11%;
+	top: 10vh;
+	opacity: 0;
+	animation: bling 1s 3.1s infinite;
+}
+.p5 .part2 .light2{
+	position: absolute;
+	width: 16%;
+	left: 6%;
+	top: 8vh;
+	opacity: 0;
+	animation: bling 1s 2.8s infinite;
+}
+.p5 .part2 .light3{
+	position: absolute;
+	width: 12%;
+	left: 80%;
+	top: 43vh;
+	opacity: 0;
+	animation: bling 1s 3.7s infinite;
+}
+.p5 .part2 .light4{
+	position: absolute;
+	width: 18%;
+	left: 85%;
+	top: 44vh;
+	opacity: 0;
+	animation: bling 1s 3.9s infinite;
+}
+.p5 .part2 .light5{
+	position: absolute;
+	width: 10%;
+	left: 85%;
+	top: 47vh;
+	opacity: 0;
+	animation: bling 1s 3.9s infinite;
+}
+.p5 .part2 .light6{
+	position: absolute;
+	width: 73%;
+	left: 0%;
+	top: 4vh;
+	opacity: 0;
+	animation: bling 1.3s 3.6s infinite alternate;
+}
+.p5 .part2 .light7{
+	position: absolute;
+	width: 51%;
+	left: 27%;
+	top: 33vh;
+	opacity: 0;
+	transform: rotate(70deg);
+	animation: star 1s 3.7s infinite alternate;
+}
+.p5 .part2 .light8{
+	position: absolute;
+	width: 32%;
+	left: -9%;
+	top: 7vh;
+	opacity: 0;
+	animation: bling 1.3s 3.6s infinite;
+}
+.p5 .part2 .light9{
+	position: absolute;
+	width: 23%;
+	left: 68%;
+	top: 39vh;
+	opacity: 0;
+	animation: bling 1.5s 3.6s infinite;
+}
+.p5 .part2 .dunpai{
+	position: absolute;
+	width: 56%;
+	left: 22%;
+	top: 21vh;
+	
+}
+.p5 .part2 .zi{
+	position: absolute;
+	width: 80%;
+	height: auto;
+	left: 10%;
+	top: 70vh;
+}
+.p5 .part2 .di{
+	width: 105%;
+	left: 0%;
+	top: 5px;
+	
+}
+.p5 .part2 .yqdz{
+	width: 66%;
+	left: 18%;
+	top: 14px;
+	
+}
+.noswipe{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 99999;
+}
+.p6 img{
+	position: absolute;
+}
+.p6 .di{
+	width: 80%;
+	left: 0;
+	top: 74vh;
+}
+.p6 .wenzi{
+	width: 70%;
+	left: 5%;
+	top: 76vh;
+}
+/*.p6 .y{
+	width: 100%;
+	top: 0;
+}
+.p6 .p{
+	width: 100%;
+	top: 0;
+}*/
+.p6 .pp1{
+	width: 5%;
+	right: 15%;
+	top: 40vh;
+	opacity: 0;
+	animation: pp1 2.4s infinite ease-in;
+}
+.p6 .pp2{
+	width: 4%;
+	right: 14%;
+	top: 41vh;
+	opacity: 0;
+	animation: pp2 2.4s 0.4s infinite ease-in;
+}
+.p6 .pp3{
+	width: 5%;
+	right: 10%;
+	top: 41vh;
+	opacity: 0;
+	animation: pp3 2.4s 0.8s infinite ease-in;
+}
+.p6 .pp4{
+	width: 5%;
+	right: 5%;
+	top: 40vh;
+	opacity: 0;
+	animation: pp4 2.4s 1.2s infinite ease-in;
+}
+.p6 .pp5{
+	width: 5%;
+	right: 5%;
+	top: 40vh;
+	opacity: 0;
+	animation: pp5 2.4s 1.6s infinite ease-in;
+}
+.p6 .pp6{
+	width: 5%;
+	right: 5%;
+	top: 40vh;
+	opacity: 0;
+	animation: pp6 2.4s 2s infinite ease-in;
+}
+.p6 .pp7{
+	width: 5%;
+	right: 5%;
+	top: 40vh;
+	opacity: 0;
+	animation: pp7 2.4s 0.5s infinite ease-in;
+}
+.p6 .yz1{
+	width: 8%;
+	right: 5%;
+	top: 45vh;
+	opacity: 0;
+	animation: yz1 2.5s infinite ease-in;
+}
+.p6 .yz2{
+	width: 7%;
+	right: 15%;
+	top: 45vh;
+	opacity: 0;
+	animation: yz2 2.5s 0.5s infinite ease-in;
+}
+.p6 .yz3{
+	width: 6%;
+	right: 20%;
+	top: 42vh;
+	opacity: 0;
+	animation: yz3 2.5s 1s infinite ease-in;
+}
+.p6 .yz4{
+	width: 3%;
+	right: 22%;
+	top: 39vh;
+	opacity: 0;
+	animation: yz4 2.5s 1.5s infinite ease-in;
+}
+.p6 .yz5{
+	width: 3%;
+	right: 20%;
+	top: 40vh;
+	opacity: 0;
+	animation: yz5 2.5s 2s infinite ease-in;
+}
+.p6 .yz6{
+	width: 5%;
+	right: 20%;
+	top: 40vh;
+	opacity: 0;
+	animation: yz6 2.5s 2.5s infinite ease-in;
+}
+.p6 .yz7{
+	width: 5%;
+	right: 20%;
+	top: 40vh;
+	opacity: 0;
+	animation: yz7 2.5s 3s infinite ease-in;
+}
+/*LIU*/
+#liu{
+	display: none;
+}
+.p6 .part1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.p6 .shou{
+	width:14%;
+	right: 13%;
+	top: 52vh;
+	animation: inRight 1.5s infinite;
+}
+.p6 .jiantou{
+	width:37%;
+	right: 8%;
+	top: 50vh;
+	opacity: 0.7;
+}
+.p6 .tiao{
+	height: 100%;
+	right: -2%;
+	top: 0;
+}
+.p7  .handMove{
+	z-index: 9;
+	width: 100%;
+	height: 50vh;
+	position: absolute;
+}
+.p7  .handMove .arrow{
+	position: absolute;
+	width: 14%;
+	left: 62%;
+	top: 23vh;
+	z-index: 9;
+}
+.p7  .handMove .hand{
+	position: absolute;
+	width: 18%;
+	left: 72%;
+	top: 18vh;
+	animation:rlmove 1.2s infinite;
+	z-index: 9;
+}
+.p7 .part1 .lvxin{
+	position: absolute;
+	width: 72%;
+	top: 34vh;
+	left: 18%;
+}
+.p7 .part1 .di{
+	position: absolute;
+	width: 100%;
+	top: 80vh;
+}
+.p7 .part1 .words{
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 82vh;
+}
+.p7 .lx{
+	width: 100%;
+	/*z-index: 9;*/
+	position: absolute;
+	top: 35vh;
+}
+.p7 .lx .left{
+	position: absolute;
+	width: 172.5px;
+	left: 67.5px;
+	top: 0vh;
+	z-index: 1;
+	/*opacity: 0;*/
+}
+.p7 .lx .right{
+	position: absolute;
+	width: 225px;
+	left: 105px;
+	top: 40.02px;
+	z-index: 1;
+	/*opacity: 0;*/
+}
+
+.p7 .part2 img{
+	position: absolute;
+}
+.p7 .part2 .kuang{
+	opacity: 0;
+	width: 100%;
+	left: 0%;
+	top: 56.7px;
+}
+.p7 .part2 .jiegou{
+	opacity: 0;
+	width: 68%;
+	left: 19%;
+	top: 70.04px;
+}
+.p7 .part2 .xiaokuang{
+	width: 8%;
+	left: 49%;
+	top: 260.47px;
+	z-index: 9;
+	opacity: 0;
+}
+.p7 .part2 .line{
+	width: 11%;
+	left: 40%;
+	top: 170.09px;
+	z-index: 9;
+}
+.p7 .part2 .lx{
+	position: absolute;
+	width: 100%;
+	height: 40vh;
+	left: 0%;
+	top: 35vh;
+}
+.p7 .part2 .words2{
+	width: 54%;
+	left: 24%;
+	top: 83.3vh;
+	opacity: 0;
+}
+.p7 .part2 .p7di2{
+	width: 140%;
+	left: -20%;
+	top: 82vh;
+	opacity: 0;
+}
+.p8 .top{
+	position: absolute;
+	width: 100%;
+	height: 10vh;
+}
+.p8 .top .numDi{
+	position: absolute;
+	width: 18%;
+	right: 8%;
+	top: 4vh;
+	animation: rotate 1s infinite ease-in;
+}
+.p8 .top .num{
+	position: absolute;
+	width: 12%;
+	right: 11%;
+	top: 8vh;
+	animation: fadeIn 1s infinite alternate;
+}
+.p8 .top .words{
+	position: absolute;
+	width: 17%;
+	right: 8%;
+	top: 10vh;
+}
+.p8 .main{
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	top: 14vh;
+}
+.p8 .main .maiOut{
+	position: absolute;
+	width: 40%;
+	height: 66vh;
+	left: 0%;
+	overflow: hidden;
+}
+.p8 .main .mai{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s infinite  ease-out;
+}
+
+.p8 .main .mai2{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s 0.75s infinite  ease-out;
+}
+.p8 .main .mai3{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s 1.5s infinite  ease-out;
+}
+.p8 .main .mai4{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s 2.25s infinite  ease-out;
+}
+.p8 .main .mai5{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s 2.5s infinite  ease-out;
+}
+.p8 .main .mai6{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s 2.75s infinite  ease-out;
+}
+.p8 .main .mai7{
+	position: absolute;
+	width: 300%;
+	top: -30vh;
+	left: 0%;
+	opacity: 0;
+	animation: fIlall 3s 1.75s infinite  ease-out;
+}
+.p8 .main .lx{
+	position: absolute;
+	width: 22%;
+	left: 39%;
+	top: 0vh;
+}
+.p8 .main .leaf1{
+	position: absolute;
+	width: 50%;
+	right: -10%;
+	top: 19vh;
+	opacity: 0;
+	animation: yezizu 3s 0.75s infinite ease-out;
+}
+.p8 .main .leaf2{
+	position: absolute;
+	width: 50%;
+	right: -10%;
+	top: 19vh;
+	opacity: 0;
+	animation: yezizu 3s 1.5s infinite ease-out;
+}
+.p8 .main .leaf3{
+	position: absolute;
+	width: 50%;
+	right: -10%;
+	top: 19vh;
+	opacity: 0;
+	animation: yezizu 3s 2.25s infinite ease-out;
+}
+.p8 .main .leaf4{
+	position: absolute;
+	width: 50%;
+	right: -10%;
+	top: 19vh;
+	opacity: 0;
+	animation: yezizu 3s 3s infinite ease-out;
+}
+.p8 .bottom{
+	position: absolute;
+	width: 100%;
+	top: 83vh;
+}
+.p8 .bottom .di{
+	position: absolute;
+	width: 100%;
+}
+.p8 .bottom .words2{
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	top: 1.8vh;
+}
+.p9 img{
+	position: absolute;
+}
+.p9 .leaf{
+	width: 50%;
+	top: 26.68px;
+	left: 27%;
+	opacity: 0;
+}
+.p9 .share{
+	width: 100%;
+	opacity: 0;
+	display: none;
+}
+.p9 .car{
+	width: 100%;
+	left: -5%;
+	top: 200.1px;
+}
+.p9 .shareBtn{
+	width: 26%;
+	top: 476.56px;
+	left: 37%;
+	/*display: none;*/
+}
+.p9 .qrcode{
+	width: 16%;
+	top: 278.13px;
+	left: 45%;
+}
+.p9 .words{
+	width: 50%;
+	top: 394.85px;
+	left: 25%;
+}
